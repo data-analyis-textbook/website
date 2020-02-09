@@ -104,7 +104,8 @@
         <br><a href="case-studies.html#Ch13usedcar">Ch13. Predicting used car value with linear regressions</a>
         <br><a href="case-studies.html#Ch14usedcar">Ch14. Predicting used car value: log prices</a>
         <br><a href="case-studies.html#Ch14airbnb">Ch14. Predicting AirBnB apartment prices: selecting a regression model</a>
-        <br><a href="case-studies.html#Ch15usedcar">Ch15. Predicting used car value with regression trees</a>
+        <br><a href="case-studies.html#Ch15usedcar">Ch15. Predicting used car value with a regression tree</a>
+        <br><a href="case-studies.html#Ch15airbnb">Ch15. Predicting AirBnB apartment prices with a regression tree</a>
         <br><a href="case-studies.html#Ch16airbnb">Ch16. Predicting AirBnB apartment prices with random forest</a>
         <br><a href="case-studies.html#Ch17bisnode">Ch17. Predicting firm exit: probability and classification</a>
         <br><a href="case-studies.html#Ch18swimming">Ch18. Forecasting daily ticket sales for a swimming pool</a>
@@ -603,10 +604,10 @@
         <hr>
         <h2 style="font-size:25px" id="Ch13usedcar">Ch13. Predicting used car value with linear regressions</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>How can we predict the selling price of cars with particular features?
+		Question in this chapter: how can we use linear regresion to predict the selling price of used cars? 
+		Data: used-cars; Data on ads for a specific make and type of used car from Chicago, USA, 2018. N=281. 
+		Methods/concepts to illustrate: prediction with regression, prediction interval, model selection (BIC and cross-validation), external validity.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -621,10 +622,10 @@
         <hr>
         <h2 style="font-size:25px" id="Ch14usedcar">Ch14. Predicting used car value: log prices</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>How can we predict the selling price of cars with particular features?
+		Question in this chapter: how can we use linear regresion with a log left-hand-side variable to predict the selling price of used cars? 
+		Data: used-cars; Data on ads for a specific make and type of used car from Chicago, USA, 2018. N=281. 
+		Methods/concepts to illustrate: prediction with regression with log y.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -639,10 +640,10 @@
         <hr>
         <h2 style="font-size:25px" id="Ch14airbnb">Ch14. Predicting AirBnB apartment prices: selecting a regression model</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>How can we predict the rental price of Airbnb apartments with particular features?
+		Question in this chapter: how can we use linear regresion to predict the rental price of Airbnb apartments? 
+		Data: airbnb; Airbnb apartment prices in London, UK, for one night in 2017. N=4497.
+		Methods/concepts to illustrate: prediction with regression; feature engineering, LASSO, holdout sample for evaluation, model selection by cross-validation.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -657,10 +658,10 @@
         <hr>
         <h2 style="font-size:25px" id="Ch15usedcar">Ch15. Predicting used car value with regression trees</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>How can we predict the selling price of cars with particular features?
+		Question in this chapter: how can we use a regression tree to predict the selling price of used cars? 
+		Data: used-cars; Data on ads for a specific make and type of used car from Chicago and Los Angeles, USA, 2018. N=477. 
+		Methods/concepts to illustrate: prediction with regression tree with a single predictor (the regression tree is a nonparametric regression).</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -673,12 +674,31 @@
         </table>
 
         <hr>
+        <h2 style="font-size:25px" id="Ch16airbnb">Ch15. Predicting AirBnB apartment prices with a regression tree</h2>
+        <br>
+        <p>How can we predict the rental price of Airbnb apartments with particular features?
+		Question in this chapter: how can we use a regression tree to predict the rental price of Airbnb apartments? 
+		Data: airbnb; Airbnb apartment prices in London, UK, for one night in 2017. N=4497.
+		Methods/concepts to illustrate: prediction with regression tree (multiple predictors stopping rules, pruning, variable importance).</p>
+        <table style="width:500px" class="table table-bordered">
+          <tbody>
+            <tr>
+              <td><a href="https://drive.google.com/drive/folders/1KYtqb9Q1ouXPVU0d-Z9PvvJKao7aWNzI?usp=sharing" target="_blank" download>Data</a></td>
+              <td><a href="README.md" target="_blank" download>R code</a></td>
+              <td><a href="README.md" target="_blank" download>Stata code</a></td>
+              <td><a href="#" target="_blank" download>Python code (in the works)</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <hr>
         <h2 style="font-size:25px" id="Ch16airbnb">Ch16. Predicting AirBnB apartment prices with random forest</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>How can we predict the rental price of Airbnb apartments with particular features?
+		Question in this chapter: how can we use a random forest to predict the rental price of Airbnb apartments? 
+		Data: airbnb; Airbnb apartment prices in London, UK, for one night in 2017. N=4497.
+		Methods/concepts to illustrate: prediction with random forest (bagging, decorrelated trees, variable importance, partial dependence plot); gradient boosting method.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -693,10 +713,9 @@
         <hr>
         <h2 style="font-size:25px" id="Ch17bisnode">Ch17. Predicting firm exit: probability and classification</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>How can we predict the probability that companies with particular features would exit (go out of business)? How can we clasify them into two groups, those likely to exit and those likely to stay in business?
+		Data: bisnode; companies from selected industries in a European country; 2012 (exit by 2014). N=19036.
+		Methods/concepts to illustrate: linking data from various sources; predicting probabilities by logit (incl. logit LASSO) and classification trees; classification using predicted probabilities and a classification thresold.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -711,10 +730,9 @@
         <hr>
         <h2 style="font-size:25px" id="Ch18swimming">Ch18. Forecasting daily ticket sales for a swimming pool</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>How can we predict daily sales in a swimming pool for one year?
+		Data: swim-transactions; transaction-level data on ticket sales for a swimming pool in Albuquerque, NM, USA, 2010-2016, aggregated to daily frequency. N=2522 days. 
+		Methods/concepts to illustrate: prediction using time series data (trend, seasonality, holidays); Prophet.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -729,10 +747,9 @@
         <hr>
         <h2 style="font-size:25px" id="Ch18houseprice">Ch18. Forecasting California house prices</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>How can we predict the montlhly house price index in a city for a year?
+		Data: case-shiller-la; Monthly time series of the Case-Shiller house price index for Los Angeles, CA, USA, 2000-2017. N=216. 
+		Methods/concepts to illustrate: prediction using time series data (trend, seasonality, ARIMA); auto-arima; using other vairables with VAR .</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -747,10 +764,9 @@
         <hr>
         <h2 style="font-size:25px" id="Ch19food">Ch19. Food and heart risk</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>Does eating a lot of fruit and vegetables prevent high blood pressure?
+		Data: food-health; National Health and Nutrition Examination Survey (NHANES), USA, 2009-2013. N=7359.
+		Methods/concepts to illustrate: thinking about cause and effect using observational data (potential outcomes, cofonders, bad congitioning variable, drawing causal maps).</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -765,10 +781,9 @@
         <hr>
         <h2 style="font-size:25px" id="Ch20workingfromhome">Ch20. Working from home and employee performance</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>What's the effect of letting employees work from home on employee retention and performance?
+		Data: working-from-home; experimental data from one firm in Shanghai, China, in 2010. N=249.
+		Methods/concepts to illustrate: designing and analyzing field experiments (randomization, compliance, covariate balance, effect estimation); using the results of experiments in actual decisions.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -783,10 +798,9 @@
         <hr>
         <h2 style="font-size:25px" id="Ch20abtest">Ch20. Fine tuning social media advertising</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>What's the effect of design details of an advertisment on social media?
+		Data: ab-test-social-media; A/B testing experiment of details of a university advertisement. N=2 million targeted impressions.
+		Methods/concepts to illustrate: designing and analyzing A/B test (sample size calculation, estimating and testing effects).</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -801,10 +815,9 @@
         <hr>
         <h2 style="font-size:25px" id="Ch21management">Ch21. Founder/family ownership and quality of management</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>What's the effect of founder/family ownership on the quality of management?
+		Data: wms-management-survey; World Management Survey: survey data on ownership and the quality of management, 24 countries, 2004-2015. N=9569. 
+		Methods/concepts to illustrate: estimating effects using observational data; thought experiments, regression, exact matching, matching on the propensity score..</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
