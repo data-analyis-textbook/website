@@ -115,7 +115,7 @@
         <br><a href="case-studies.html#Ch20abtest">Ch20. Fine tuning social media advertising</a>
         <br><a href="case-studies.html#Ch21management">Ch21. Founder/family ownership and quality of management</a>
         <br><a href="case-studies.html#Ch22airline">Ch22. How does a merger between airlines affect prices?</a>
-        <br><a href="case-studies.html#Ch23tseries">Ch23. Thai industrial production and foreign demand</a>
+        <br><a href="case-studies.html#Ch23tseries">Ch23. Import demand and industrial production</a>
         <br><a href="case-studies.html#Ch23immunization">Ch23. Immunization against measles and saving children</a>
         <br><a href="case-studies.html#Ch24haiti">Ch24. Estimating the effect of the 2010 Haiti earthquake on GDP</a>
         <br><a href="case-studies.html#Ch24football">Ch24. Estimating the impact of replacing football team managers </a></p>
@@ -832,10 +832,9 @@
         <hr>
         <h2 style="font-size:25px" id="Ch22airline">Ch22. How does a merger between airlines affect prices?</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>How does a merger between two major airlines companies affect market prices?
+		Data: US-arilines; US Department of Transportation DB1B data (10% of all tickets sold in the USA), 2010-2016. Aggregated to N=112,632 markets. 
+		Methods/concepts to illustrate: difference-in-differences (simple diff-in-diffs, diff-in-diff regression with other right-hand-side variables, diff-in-diffs with pooled cross sections); defining markets and aggregating big data to market level.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -848,12 +847,11 @@
         </table>
 
         <hr>
-        <h2 style="font-size:25px" id="Ch23tseries">Ch23. Thai industrial production and foreign demand</h2>
+        <h2 style="font-size:25px" id="Ch23tseries">Ch23. Import demand and industrial production</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>How does the import demand of the USA affect industrial production in Thailand?
+		Data: asia-industry; Monthly time series data on industrial production in four Asian countries and total imports in the USA, from the World Development Indicators (World Bank). Feb 1998 - April 2018, N=243. 
+		Methods/concepts to illustrate: estimating an effect via time series regression (estimation in changes, lags, serial correlation); regression with pooled time series.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -868,10 +866,9 @@
         <hr>
         <h2 style="font-size:25px" id="Ch23immunization">Ch23. Immunization against measles and saving children</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>Does immunization against measles save children?
+		Data: ; World Development Indicators (World Bank), 192 countries, yearly data 1998-2017 (balanced panel of 172 countries and 20 years, N=3440). 
+		Methods/concepts to illustrate: cross-section time-series panel data regresions (FE, FD, lags, leads, aggregate trend, indivudial trends, clustered SE).</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -886,10 +883,9 @@
         <hr>
         <h2 style="font-size:25px" id="Ch24haiti">Ch24. Estimating the effect of the 2010 Haiti earthquake on GDP</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>What was the effect of of the 2010 earthquake in Haiti on total Haitian GDP?
+		Data: haiti-earthquake; yearly time series on GDP and other macro variables from Haiti and 22 countries (World Development Indicators of the WOrld Bank), 2004-2015. 
+		Methods/concepts to illustrate: synthetic control method (donor pool, variable selection, synthetic control algorithm).</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -904,10 +900,9 @@
         <hr>
         <h2 style="font-size:25px" id="Ch24football">Ch24. Estimating the impact of replacing football team managers</h2>
         <br>
-        <p>main qn? 
-		Question in this chapter: ? 
-		Data: ; . 
-		Methods/concepts to illustrate: .</p>
+        <p>What's the effect of replacing a football (soccer) manager within the season on team performance?
+		Data: football; team-game level data from the English Premier League, seasons 2008/9 - 2018/19, merged to data on managers. N=8360.
+		Methods/concepts to illustrate: event study regression with panel data; selection of control group and defining pseudo-interventions.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
