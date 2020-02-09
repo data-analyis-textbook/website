@@ -85,7 +85,6 @@
         <br><a href="case-studies.html#Ch03hotels-europe">Ch03. Comparing hotel markets in Europe: Vienna vs London</a>
         <br><a href="case-studies.html#Ch03city">Ch03. City size distribution in Japan (in Appendix)</a>
         <br><a href="case-studies.html#Ch03height">Ch03. Distributions of body height and income</a>
-        <br><a href="case-studies.html#Ch03distributions">Ch03. Simulated distributions</a>
         <br><a href="case-studies.html#Ch04management">Ch04. Management quality and firm size: describing patterns of association</a>
         <br><a href="case-studies.html#Ch05stock">Ch05. What likelihood of loss to expect on a stock portfolio?</a>
         <br><a href="case-studies.html#Ch06prices">Ch06. Comparing online and offline prices: testing the difference</a>
@@ -126,7 +125,7 @@
         <p>How to find a good deal -- a hotel that is underpriced relative to its location and quality? 
 		Question in this chapter: how to collect data to on hotel prices and features? 
 		Data: hotels-vienna; prices and features of all hotels available in Vienna, Austria, for a particular night. 
-		Methods/concepts to illustrate: variables, observations, identifying entities; validity; web scraping.</p>
+		Methods/concepts to illustrate: data table, identifying entities, validity, web scraping.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -145,7 +144,7 @@
 		Question in this chapter: how to collect data to measure such differences? 
 		No data is used here; we describe and discuss the data collection methods used by the Billion Prices Project (BPP)
 		http://www.thebillionpricesproject.com. 
-		Methods/concepts to illustrate: data collection using various methods; identifying entities; validity and reliability; representation of a population.</p>
+		Methods/concepts to illustrate: data collection using various methods, identifying entities, validity and reliability, representation of a population.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -164,7 +163,7 @@
 		Questions in this chapter: how to collect data on organizations and how to measure the quality of management? 
 		No data is used here; we describe and discuss the data collection methods used by the World Management Survey (WMS);
 		http://worldmanagementsurvey.org. 
-		Methods/concepts to illustrate: survey method; validity and reliability, sampling and representation of a population.</p>
+		Methods/concepts to illustrate: survey method, validity, reliability, sampling and representation of a population.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -180,7 +179,7 @@
         <h2 style="font-size:25px" id="Ch02hotels">Ch02. Finding a good deal among hotels: data preparation</h2>
         <br>
         <p>How to find a good deal -- a hotel that is underpriced relative to its location and quality? 
-		Question in this chapter: how find and solve problems with data on hotel prices and features? 
+		Question in this chapter: how to start working with the data -- how to find and solve problems? 
 		Data: hotels-vienna; prices and features of all hotels available in Vienna, Austria, for a particular night. 
 		Methods/concepts to illustrate: types of variables; duplicates and missing values.</p>
         <table style="width:500px" class="table table-bordered">
@@ -200,7 +199,7 @@
         <p>How to identify the most successful football (soccer) managers? 
 		Question in this chapter: how to link, organize, and use data on team performance and managers? 
 		Data: football; games in the English Premier League (EPL) 2008-2019; managers in the EPL in 2008-2019. 
-		Methods/concepts to illustrate: tidy data: linking, organizing and storing data from different sources; entity resolution.</p>
+		Methods/concepts to illustrate: tidy data, linking, organizing and storing data from different sources, entity resolution.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -218,7 +217,7 @@
         <p>What's the level of immunization agains across countires and years? 
 		Question in this chapter: how to organize and store data from many countries and years? 
 		Data: world-bank-vaccination; data on immunuzation rates in all countries in the world in recent years. 
-		Methods/concepts to illustrate: tidy data: organizing and storing multi-dimensional (panel) data -- long versus wide formats.</p>
+		Methods/concepts to illustrate: tidy data, organizing and storing multi-dimensional (panel) data (long versus wide data tables).</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -252,7 +251,6 @@
         <h2 style="font-size:25px" id="Ch03football">Ch03. Measuring home team advantage in football</h2>
         <br>
         <p>What's the extent of home team advantage in football (soccer)? 
-		Question in this chapter: how to measure and visualize home team advantage in football? 
 		Data: football-games; games in the English Premier League (EPL) 2008-2019. 
 		Methods/concepts to illustrate: distribution, summary statistics, anatomy of a table.</p>
         <table style="width:500px" class="table table-bordered">
@@ -271,7 +269,7 @@
         <br>
         <p>How do hotel prices compare across cities? 
 		Data: hotels-europe; prices and features of all hotels available in various European cities for a few particular night. 
-		Methods/concepts to illustrate: distributions: histograms versus density plots (kernel density estimates).</p>
+		Methods/concepts to illustrate: distributions, histograms and density plots (kernel density estimates).</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -318,21 +316,6 @@
         </table>
 
         <hr>
-        <h2 style="font-size:25px" id="Ch03distributions">Ch03. Simulated distributions</h2>
-        <br>
-        <p>Description here</p>
-        <table style="width:500px" class="table table-bordered">
-          <tbody>
-            <tr>
-              <td><a href="https://drive.google.com/drive/folders/1KYtqb9Q1ouXPVU0d-Z9PvvJKao7aWNzI?usp=sharing" target="_blank" download>Data</a></td>
-              <td><a href="README.md" target="_blank" download>R code</a></td>
-              <td><a href="README.md" target="_blank" download>Stata code</a></td>
-              <td><a href="#" target="_blank" download>Python code (in the works)</a></td>
-            </tr>
-          </tbody>
-        </table>
-
-        <hr>
         <h2 style="font-size:25px" id="Ch04management">Ch04. Management quality and firm size: describing patterns of association</h2>
         <br>
         <p>Are larger companies better managed? 
@@ -354,8 +337,8 @@
         <h2 style="font-size:25px" id="Ch05stock">Ch05. What likelihood of loss to expect on a stock portfolio?</h2>
         <br>
         <p>What likelihood of a large loss should we expect on a portfolio of company stocks?
-		Data: stock-market; 11 years of daily closing price data of tne S & P 500 stock market index from the U.S.A. (N=2519). 
-		Methods/concepts to illustrate: time series data; sampling distribution of a statistic; standard error, confidence interval, estimation of SE by bootstrap and by formula; external validity.</p>
+		Data: stock-market; 11 years of daily closing price data of the S & P 500 stock market index from the U.S.A. (N=2519). 
+		Methods/concepts to illustrate: time series data, sampling distribution of a statistic, standard error, confidence interval, estimation of SE by bootstrap and by formula, external validity.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -374,7 +357,7 @@
 		Data: billion-prices; Online and offline prices of a set of products sold in the U.S.A. in 2015-6; 
 		Billion Prices Project (BPP) http://www.thebillionpricesproject.com, N=6439. 
 		Methods/concepts to illustrate: formulating and testing two-sided hypotheses about an avareage 
-		(confidence interval, t-test, fals positives and false negatives, p-value); testing multiple hypotheses.</p>
+		(confidence interval, t-test, fals positives and false negatives, p-value), testing multiple hypotheses.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -444,9 +427,9 @@
         <h2 style="font-size:25px" id="Ch08lifeexp">Ch08. How does life expectancy correlate with income?</h2>
         <br>
         <p>How is average income in a country related to how long its people live?
-		Data: worldbank-lifeexpectancy; cross-country data for a single year (2017) from the World Development Indicators website of the World Bank (N=182); . 
-		Methods/concepts to illustrate: per capita and logs in regressions; 
-		approximating nonlinear assiciations in linear regressions (piecewise linear spline and polynomials); weights in the regression.</p>
+		Data: worldbank-lifeexpectancy; cross-country data for a single year (2017) from the World Development Indicators website of the World Bank (N=182), . 
+		Methods/concepts to illustrate: per capita and logs in regressions, 
+		approximating nonlinear assiciations in linear regressions (piecewise linear spline and polynomials), weights in the regression.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -555,7 +538,7 @@
         <br>
         <p>Are smokers less likely to stay healthy?
 		Data: share-health; Survey for Healt, Aging, and Retirement in Europe (SHARE), 2011 50-60 year-old healthy subsample. N=3109. 
-		Methods/concepts to illustrate: linear probability model, logit, probit, marginal differences, predicted probabilities,.</p>
+		Methods/concepts to illustrate: linear probability model, logit, probit, marginal differences, predicted probabilities.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -572,7 +555,7 @@
         <br>
         <p>How are changes in the price of one company stock related to changes in market prices? 
 		Data: stocks-sp500; prices of Microsoft and the S & P 500, 1998-2018. N=5284 days (253 months) 
-		Methods/concepts to illustrate: regression with time series data; estimating financial beta.</p>
+		Methods/concepts to illustrate: regression with time series data, estimating financial beta.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -604,7 +587,7 @@
         <hr>
         <h2 style="font-size:25px" id="Ch13usedcar">Ch13. Predicting used car value with linear regressions</h2>
         <br>
-        <p>How can we predict the selling price of cars with particular features?
+        <p>How can we predict the selling price of used cars with particular features?
 		Question in this chapter: how can we use linear regresion to predict the selling price of used cars? 
 		Data: used-cars; Data on ads for a specific make and type of used car from Chicago, USA, 2018. N=281. 
 		Methods/concepts to illustrate: prediction with regression, prediction interval, model selection (BIC and cross-validation), external validity.</p>
@@ -622,7 +605,7 @@
         <hr>
         <h2 style="font-size:25px" id="Ch14usedcar">Ch14. Predicting used car value: log prices</h2>
         <br>
-        <p>How can we predict the selling price of cars with particular features?
+        <p>How can we predict the selling price of used cars with particular features?
 		Question in this chapter: how can we use linear regresion with a log left-hand-side variable to predict the selling price of used cars? 
 		Data: used-cars; Data on ads for a specific make and type of used car from Chicago, USA, 2018. N=281. 
 		Methods/concepts to illustrate: prediction with regression with log y.</p>
@@ -834,7 +817,7 @@
         <br>
         <p>How does a merger between two major airlines companies affect market prices?
 		Data: US-arilines; US Department of Transportation DB1B data (10% of all tickets sold in the USA), 2010-2016. Aggregated to N=112,632 markets. 
-		Methods/concepts to illustrate: difference-in-differences (simple diff-in-diffs, diff-in-diff regression with other right-hand-side variables, diff-in-diffs with pooled cross sections); defining markets and aggregating big data to market level.</p>
+		Methods/concepts to illustrate: difference-in-differences (simple diff-in-diffs, diff-in-diffs regression with other right-hand-side variables, diff-in-diffs with pooled cross sections); defining markets and aggregating big data to market level.</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
             <tr>
@@ -867,7 +850,7 @@
         <h2 style="font-size:25px" id="Ch23immunization">Ch23. Immunization against measles and saving children</h2>
         <br>
         <p>Does immunization against measles save children?
-		Data: ; World Development Indicators (World Bank), 192 countries, yearly data 1998-2017 (balanced panel of 172 countries and 20 years, N=3440). 
+		Data: world-bank-vaccination; World Development Indicators (World Bank), 192 countries, yearly data 1998-2017 (balanced panel of 172 countries and 20 years, N=3440). 
 		Methods/concepts to illustrate: cross-section time-series panel data regresions (FE, FD, lags, leads, aggregate trend, indivudial trends, clustered SE).</p>
         <table style="width:500px" class="table table-bordered">
           <tbody>
